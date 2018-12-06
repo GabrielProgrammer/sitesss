@@ -1,6 +1,7 @@
 
 package br.orpheu.nopain;
 
+import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +13,7 @@ import javax.persistence.Id;
  * @author aluno
  */
 @Entity
-public class usuario {
+public class usuario implements Serializable {
 
     /**
      * @return the cod_usuario

@@ -54,7 +54,7 @@ public class Cadastros extends HttpServlet {
             response.sendRedirect("erro.html");
         }
         // redirecionar p outra página
-        response.sendRedirect("perfil.html");
+        response.sendRedirect("login.jsp");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
